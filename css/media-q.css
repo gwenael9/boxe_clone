@@ -1,0 +1,65 @@
+
+
+
+/* 
+----------------------------------
+------style pour ordinateur-------
+----------------------------------
+ */
+
+
+@media screen and (min-width:1400px) {
+    .container {
+        padding: 0 20rem;
+    }
+
+    /* header */ 
+    .flexbox {
+        position: relative;
+    }
+    .logo {
+        text-align: start;
+        padding: 0;
+    }
+    .logo p {
+        top: 20px;
+        width: max-content;
+    }
+    .connexion {
+        display:flex;
+        justify-content: flex-end;
+        position: absolute;
+        /* postion relative a flexbox puis position absolute ici */
+        right: 0;
+        padding: 0;
+    }
+
+    .navbar_ul {
+        justify-content: flex-end;
+        width: 100%;
+    }
+    li {
+        margin-left: 1rem;
+    }
+
+
+
+    /* footer */
+    
+    .link {
+        margin: 0 250px;
+    }
+    .link li {
+        margin: 0 1rem;
+    }
+    .guide_footer {
+        padding: 0;
+        flex-wrap: nowrap;
+    }
+    .guide_footer li {
+        font-size: 1.25rem;
+        padding: 2rem;
+    }
+}
+
+
